@@ -65,10 +65,10 @@
                 <div class="box-content row">
                     <div class="col-12 col-md-12 " style="text-align: center; padding-bottom:20px;">
                         <div class="video-container" style="position: relative; text-align: right">
-                            <img style="width:100%" src="/images/shopkenhtiktok-bg-2.png"/>
+                            <img style="width:100%" src="/images/home/shopkenhtiktok-bg2.png"/>
                             <div class="box-price">
                                 <div class="btn-normal" style="margin-top: 10px; display: inline-block;">
-                                    <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
+                                    <a style="background: #4F4F4F; border-radius: 24px;" href="/mua-kenh-tiktok" title="Get to know us">
                                         <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-330">Xem bảng giá</span>
                                         <svg style="color: white !important" class="icon"><use xlink:href="#icon-arrow"></use></svg>
                                     </a>
@@ -77,7 +77,7 @@
                                  <div class="ring-circle"></div>
                                  <div class="ring-circle-fill"></div>
                                  <div class="ring-img-circle">
-                                   <a href="/mua-group-facebook" class="btn-img">
+                                   <a href="/mua-kenh-tiktok" class="btn-img">
                                      <img src="/images/home/click.png" width="50">
                                    </a>
                                  </div>
@@ -105,7 +105,7 @@
                     </p>
                     <div class="btn-normal" style="margin-top: 10px;">
                         <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
-                            <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Group</span>
+                            <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh sách kênh Tiktok</span>
                             <svg style="color: white !important" class="icon"><use xlink:href="#icon-arrow"></use></svg>
                         </a>
                     </div>
@@ -130,7 +130,7 @@
         <div>
             <img class='myimg' src='/images/home/fb_icon_325x325.png'>
         </div>
-        <a class='popup-btn' href='https://shopkenhtiktok.com/mua-group-facebook'> Tôi muốn: Mua Group FB</a>
+        <a class='popup-btn' href='https://shopkenhtiktok.com/mua-kenh-tiktok'> Tôi muốn: Mua Group FB</a>
     </div>
     <div class='mybox'>
         <div>
