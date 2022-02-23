@@ -10,8 +10,8 @@
         width: 48%;
     }
     .swal2-confirm{
-        background: #D4B639 !important;
-        border-color: #D4B639 !important;
+        background: #FE004E !important;
+        border-color: #FE004E !important;
     }
     .popup-btn {
         padding: 7px 19px;
