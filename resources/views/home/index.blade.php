@@ -128,9 +128,9 @@
   html:
     `<div class='mybox'>
         <div>
-            <img class='myimg' src='/images/home/fb_icon_325x325.png'>
+            <img class='myimg' src='/images/home/share_img.png'>
         </div>
-        <a class='popup-btn' href='https://shopkenhtiktok.com/mua-kenh-tiktok'> Tôi muốn: Mua Group FB</a>
+        <a class='popup-btn' href='https://shopkenhtiktok.com/mua-kenh-tiktok'> Tôi muốn: Mua kênh TikTok</a>
     </div>
     <div class='mybox'>
         <div>
