@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
-@section('title', 'shopkenhtiktok.com Đơn Vị Mua Bán Chuyển Nhượng Group Uy Tín')
-@section('description', 'Bạn đang có nhu cầu mua bán Group chất lượng? shopkenhtiktok.com - đơn vị mua bán chuyển nhượng Group uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
+@section('title', 'shopkenhtiktok.com Đơn Vị Mua Bán Chuyển Nhượng kênh tiktok Uy Tín')
+@section('description', 'Bạn đang có nhu cầu mua bán kênh tiktok chất lượng? shopkenhtiktok.com - đơn vị mua bán chuyển nhượng kênh tiktok uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
 @section('css')
 
 <style>
@@ -95,13 +95,13 @@
     <div class="grid-service servicee">
         <div class="container">
             <div class="box-call">
-                <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Tại sao nên sở hữu một Group Facebook</h3>
+                <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Tại sao nên sở hữu một Kênh Tiktok</h3>
                 <div class="sapo" style="max-width:740px">
                     <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">
-                        ► Group Facebook giúp nâng tầm thương hiệu Sản Phẩm, Doanh Nghiệp của bạn.
+                        ► Kênh Tiktok giúp nâng tầm thương hiệu Sản Phẩm, Doanh Nghiệp của bạn.
                         ► Đưa Sản Phẩm của bạn đến với khách hàng một cách tự nhiên mà không tốn phí.
-                        ► Group Facebook đem lại doanh thu cho bạn từ những đối tác quảng cáo SP.
-                        ► Group Facebook sức mạnh khủng khiếp đến từ cộng đồng!
+                        ► Kênh Tiktok đem lại doanh thu cho bạn từ những đối tác quảng cáo SP.
+                        ► Kênh Tiktok sức mạnh khủng khiếp đến từ cộng đồng!
                     </p>
                     <div class="btn-normal" style="margin-top: 10px;">
                         <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">

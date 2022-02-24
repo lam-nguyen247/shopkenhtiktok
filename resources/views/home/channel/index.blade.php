@@ -129,7 +129,7 @@
                             @endfor
                         </tbody>
                     </table>
-                    <h3 style="text-align: center; font-weight: bold;">Còn nhiều Group khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
+                    <h3 style="text-align: center; font-weight: bold;">Còn nhiều Kênh Tiktok khác.. Vui lòng liên hệ Hotline/Zalo: 0988 508 769 để được tư vấn thêm</h3>
                 </div>
                 <div class="col-12" style="order: 3 !important;">
                     <div class="container">
@@ -202,8 +202,8 @@
                 "sLengthMenu":    "Hiển thị _MENU_ group",
                 "sZeroRecords":   "No se encontraron resultados",
                 "sEmptyTable":    "Ningún dato disponible en esta tabla",
-                "sInfo":          "Bắt đầu từ group _START_ đến _END_ trong tổng _TOTAL_ group",
-                "sInfoEmpty":     "Không có group nào",
+                "sInfo":          "Bắt đầu từ kênh _START_ đến _END_ trong tổng _TOTAL_ group",
+                "sInfoEmpty":     "Không có kênh nào",
                 "sInfoFiltered":  "(filtrado de un total de _MAX_ registros)",
                 "sInfoPostFix":   "",
                 "sSearch":        "Tìm kiếm:",
