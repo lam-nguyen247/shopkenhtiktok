@@ -119,12 +119,12 @@ class ChannelController extends Controller
 		$arr = $response->getValues();
         $values = [];
         foreach($arr as $key=>$item){
-            if($key == 0 || !isset($item[5])){
+            if($key == 0 || !isset($item[4])){
                 $values[] = $item;
                 continue;
             }
             $item[1] = (int)str_replace('.', '', $item[1]);
-            $item[5] = (int)str_replace('.', '', $item[5]);
+            $item[4] = (int)str_replace('.', '', $item[5]);
             if(!empty($request->sub_f)){
                 if($item[1] < $request->sub_f){
                     continue;
@@ -136,12 +136,12 @@ class ChannelController extends Controller
                 }
             }
             if(!empty($request->price_f)){
-                if($item[5] < $request->price_f){
+                if($item[4] < $request->price_f){
                     continue;
                 }
             }
             if(!empty($request->price_t)){
-                if($item[5] > $request->price_t){
+                if($item[4] > $request->price_t){
                     continue;
                 }
             }
