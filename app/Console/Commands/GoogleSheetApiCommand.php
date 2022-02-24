@@ -88,7 +88,7 @@ class GoogleSheetApiCommand extends Command
    	$client->setApplicationName('Google Sheets API PHP Quickstart');
    	$client->setScopes(Google_Service_Sheets::SPREADSHEETS_READONLY);
    	$client->setAuthConfig(config_path('credentials.json'));
-   	$client->setAccessType('offline');
+   	$client->setAccessType('online');
 
    	$tokenPath = storage_path('app/token.json');
    	if (file_exists($tokenPath)) {
