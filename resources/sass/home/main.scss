@@ -1,6 +1,6 @@
 $color-main: #CA7559 !default;
 $color-main-2: #F8C8B8 !default;
-$color-primary: #FE004E !default;
+$color-primary: #00BBBB !default;
 $color-text: #000 !default;
 $bg-white: #fff !default;
 $color-white: #fff !default;
@@ -8,19 +8,19 @@ $font-family: 'Montserrat',
 sans-serif !default;
 $bg-gray: #C4C4C4 !default;
 $bg-style-gray: #f2f2f2 !default;
-$bg-black: #00BBBB !default;
+$bg-black: #FE004E !default;
 $bg-hero: #14161B !default;
 $color-black: #1F2229 !default;
-$bg-primary: #FE004E !default;
-$bg-btn-icon: #FE004E !default;
+$bg-primary: #00BBBB !default;
+$bg-btn-icon: #00BBBB !default;
 $bg-btn-icon-pale: #4F4F4F !default;
 :root {
     --color-white: #fff;
     --bg-white: #fff;
     --color-black: #1F2229;
     --bg-black: #1F2229;
-    --bg-btn-icon: #FE004E;
-    --bg-primary: #FE004E;
+    --bg-btn-icon: #00BBBB;
+    --bg-primary: #00BBBB;
     --bg-style-gray: #f2f2f2;
     --bg-style-gray-2: #e0e0e0;
     --bg-hero: url('../../../public/images/home/shopkenhtiktok-bg.png');
@@ -720,7 +720,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(254, 0, 78, .8);
+    background: rgba(0, 187, 187, 0.9);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -994,7 +994,7 @@ header {
 }
 
 .navigation__button {
-    background-color: #FE004E;
+    background-color: #DA0144;
     height: 41px;
     width: 41px;
     position: fixed;
@@ -3249,7 +3249,7 @@ footer {
     }
     .copyright {
         padding: 10px 0;
-        background: #009394;
+        background: #DA0144;
         text-align: center;
         color: #fff;
         font-size: 0.85rem;
@@ -3448,7 +3448,7 @@ footer {
     svg.icon {
         height: 16px;
         width: 16px;
-        fill: #FE004E;
+        fill: #00BBBB;
         &:first-child {
             margin-right: 5px;
             display: none;

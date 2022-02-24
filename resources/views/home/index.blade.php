@@ -136,7 +136,7 @@
         <div>
             <img class='myimg' src='/images/home/social-media.png'>
         </div>
-        <a class='popup-btn' href='https://m.me/shopkenhtiktok.com.vn'> Tôi muốn: Được tư vấn </a>
+        <a class='popup-btn' href='https://m.me/shopkenhtiktok'> Tôi muốn: Được tư vấn </a>
     </div>
     `,
   showCloseButton: true,

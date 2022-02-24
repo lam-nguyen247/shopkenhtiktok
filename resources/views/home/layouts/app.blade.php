@@ -194,10 +194,10 @@
                 </div>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="footer-content">
-                        <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-footer-9">Facebook</h3>
+                        <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-footer-9">Dịch vụ</h3>
                         <ul class="footer-list">
                             <li class="sub-item">
-                                <a href="/mua-kenh-tiktok" data-cms="{{app()->getLocale()}}-layouts-app-footer-5">Bán Group</a>
+                                <a href="/mua-kenh-tiktok" data-cms="{{app()->getLocale()}}-layouts-app-footer-5">Bán kênh Tiktok</a>
                              </li>
 
                         </ul>
@@ -206,7 +206,7 @@
                 <div class="col-8 col-md-3 col-lg-3">
                     <div class="footer-content">
                         <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-footer-10">@lang('Follow us')</h3>
-                        <div class="fb-page" data-href="https://www.facebook.com/shopkenhtiktok.com.vn/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/shopkenhtiktok.com.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/shopkenhtiktok.com.vn/">Mua Bán Kênh Tiktok  - MK Media</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/shopkenhtiktok" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/shopkenhtiktok" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/shopkenhtiktok">Mua Bán Kênh Tiktok  - MK Media</a></blockquote></div>
                     </div>
                 </div>
             </div>
@@ -240,13 +240,13 @@
     <div class="messenger">
       <div class="ring">
             <div class="">
-            <a href="https://m.me/shopkenhtiktok.com.vn" class="btn-img" target="_blank">
+            <a href="https://m.me/shopkenhtiktok" class="btn-img" target="_blank">
                 <img src="/images/home/social-media.png" width="38">
             </a>
         </div>
       </div>
       <div class="bar">
-        <a href="https://m.me/shopkenhtiktok.com.vn" target="_blank">
+        <a href="https://m.me/shopkenhtiktok" target="_blank">
           <span class="text-hotline">Facebook</span>
         </a>
       </div>
