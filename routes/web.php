@@ -39,6 +39,7 @@ Route::get('{news}/{post:slug}', [PostController::class, 'detail'])->where('news
 Route::get('mua-group-facebook', [ChannelController::class, 'index']);
 Route::get('mua-fanpage-facebook', [ChannelController::class, 'fanPage']);
 Route::get('mua-kenh-tiktok', [ChannelController::class, 'tiktok']);
+Route::get('key', [ChannelController::class, 'getKey']);
 Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
 Route::get('chuyen-nhuong-lai-group-facebook', [PageController::class,'transChannel']);
