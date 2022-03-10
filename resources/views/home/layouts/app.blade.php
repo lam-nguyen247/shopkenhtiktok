@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="google-site-verification" content="5nb5jGPwH3y0UcGLz1mRDOwoZO81qEn3nM71zPyVCQ4" />
-    <meta property="og:image" content="@yield('cover', 'https://mkmedia.info/images/home/mkmedia-logo.png')"/>
-    <meta property="og:image:alt" content="@yield('cover', 'https://mkmedia.info/images/home/mkmedia-logo.png')"/>
-    <meta name="twitter:image" content="@yield('cover', 'https://mkmedia.info/images/home/mkmedia-logo.png')"/>
+    <meta property="og:image" content="@yield('cover', 'https://shopkenhtiktok.com/images/home/shopkenhtiktok-logo.png')"/>
+    <meta property="og:image:alt" content="@yield('cover', 'https://shopkenhtiktok.com/images/home/shopkenhtiktok-logo.png')"/>
+    <meta name="twitter:image" content="@yield('cover', 'https://shopkenhtiktok.com/images/home/shopkenhtiktok-logo.png')"/>
     <meta property="og:url" content=" {{  Request::url() }} "/>
     <meta property="og:type" content=" {{  Request::url() }} "/>
     @isset($seo)
