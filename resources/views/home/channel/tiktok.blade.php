@@ -174,7 +174,7 @@
     })
 
     function xemKenh(url){
-        url = url.replace('www.', 'https://');
+        url = url.  ('www.', '');
         window.open(url,'_blank');
     }
     function copy(id) {
