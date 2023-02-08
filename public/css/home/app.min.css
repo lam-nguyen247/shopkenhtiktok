@@ -1551,7 +1551,7 @@ img {
 }
 
 .wrapper-content * {
-  color: var(--color-black) !important;
+  color: var(--color-black);
 }
 
 .theme-switch-wrapper {
@@ -2049,7 +2049,7 @@ header .header__nav .title {
   line-height: 1.75rem;
   letter-spacing: 0.2px;
   text-transform: uppercase;
-  color: var(--color-black) !important;
+  color: var(--color-black);
   text-decoration: none;
   font-weight: 700;
   display: block;
@@ -2919,7 +2919,7 @@ header .header__nav .title {
 .grid-service span,
 .grid-service button,
 .grid-service svg {
-  color: var(--color-black) !important;
+  color: var(--color-black);
 }
 
 .box-package {
