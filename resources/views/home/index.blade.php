@@ -136,10 +136,7 @@
         <div>
             <img class='myimg' src='/images/home/communication.png'>
         </div>
-        <a class='popup-btn' href='href="https://zalo.me/0988508769"'> Tôi muốn: Được tư vấn </a>
-    </div>
-    <div>
-        <img style="width: 100%; max-width: 300px;" src='/images/home/qr_code.jpg'>
+        <a class='popup-btn' href='https://zalo.me/0988508769'> Tôi muốn: Được tư vấn </a>
     </div>
     `,
   showCloseButton: true,
