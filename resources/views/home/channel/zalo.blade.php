@@ -212,9 +212,9 @@
                         <div>
                             <h1 class="main__name">SOC MEDIA</h1>
                             <div class="main__profile-type">Liên hệ: 0965590009</div>
-                            <button type="button" class="button medium" title="Nhắn tin qua Zalo" aria-pressed="false"
-                                style="width: 240px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 25 24" width="24" height="24">
+                            <button onclick="copyZalo()" type="button" class="button medium" title="Nhắn tin qua Zalo"
+                                aria-pressed="false" style="width: 240px;"><svg xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 25 24" width="24" height="24">
                                     <path fill="#ffffff" fill-rule="evenodd"
                                         d="M16.2 4.563a8.315 8.315 0 0 0-3.687-.863 8.315 8.315 0 0 0-7.217 4.198 8.294 8.294 0 0 0 .08 8.342c.141.238.198.516.16.79l-.27 1.88v.08a.28.28 0 0 0 .28.24l1.922-.27h.17c.218 0 .432.06.62.17a8.315 8.315 0 0 0 10.452-1.603 8.299 8.299 0 0 0 1.959-7.103A8.295 8.295 0 0 0 16.2 4.563Zm-8.473-.774A9.517 9.517 0 0 1 12.513 2.5a9.518 9.518 0 0 1 7.55 3.753 9.496 9.496 0 0 1-4.017 14.558 9.518 9.518 0 0 1-8.408-.641l-1.882.27h-.21a1.483 1.483 0 0 1-1.472-1.69l.27-1.88A9.493 9.493 0 0 1 7.728 3.789ZM7.739 10a.6.6 0 0 1 .6-.6h6.347a.6.6 0 1 1 0 1.2H8.339a.6.6 0 0 1-.6-.6Zm0 3.5a.6.6 0 0 1 .6-.6h2.933a.6.6 0 1 1 0 1.2H8.34a.6.6 0 0 1-.6-.6Z"
                                         clip-rule="evenodd"></path>
@@ -232,104 +232,20 @@
         </div>
 
     </div>
-
-
-    <div id="lle-shadow-host" data-key="c529b909-17d9-4fdb-ba57-4640ad753e9d"></div>
-    <style id="page-style-page-text-expand">
-        .lle-page-translate-loading {
-            animation: .75s linear infinite lle-circle;
-            display: inline-block;
-            vertical-align: middle !important;
-            border: 2px solid var(--g-500, #00d778) !important;
-            border-top-color: #0000 !important;
-            border-radius: 50% !important;
-            width: 10px !important;
-            height: 10px !important;
-            margin: 0 4px !important;
-            padding: 0 !important
+    <script src="/js/home/jquery-3.6.0.min.js"></script>
+    <script>
+        function copyZalo() {
+            /* Get the text field */
+            var copyText = "0965590009";
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val(copyText).select();
+            document.execCommand("copy");
+            $temp.remove();
+            alert('Đã sao chép số zalo')
         }
+    </script>
 
-        .lle-page-translate-retry {
-            cursor: pointer;
-            display: inline-block;
-            vertical-align: middle !important;
-            color: var(--r-500, #ff6262) !important;
-            box-sizing: border-box !important;
-            text-indent: -9999px !important;
-            width: 1em !important;
-            height: 1em !important;
-            margin: 0 4px !important;
-            padding: 0 !important;
-            font-size: 14px !important;
-            position: relative !important
-        }
-
-        .lle-page-translate-retry:before,
-        .lle-page-translate-retry:after {
-            content: "";
-            box-sizing: inherit;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%)
-        }
-
-        .lle-page-translate-retry:before {
-            border: 2px solid;
-            border-right-color: #0000;
-            border-radius: 50%;
-            width: .9em;
-            height: .9em
-        }
-
-        .lle-page-translate-retry:after {
-            border: .2em solid;
-            border-color: #0000 currentColor currentColor #0000;
-            top: 20%;
-            left: 75%
-        }
-
-        @keyframes lle-circle {
-            0% {
-                transform: rotate(0)
-            }
-
-            to {
-                transform: rotate(360deg)
-            }
-        }
-
-        .lle-page-highlight {
-            position: relative
-        }
-
-        .lle-page-highlight:before {
-            content: "";
-            background: linear-gradient(180deg, var(--g-500, #00d778)0, #00d77833 2px, #00d77800 100%);
-            animation: 1s 2 forwards lle-highlight;
-            position: absolute;
-            inset: 0
-        }
-
-        @keyframes lle-highlight {
-            0% {
-                opacity: 0
-            }
-
-            50% {
-                opacity: 1
-            }
-
-            to {
-                opacity: 0
-            }
-        }
-
-        .lle-page-clamp-unset {
-            -webkit-line-clamp: unset !important;
-            max-height: unset !important
-        }
-    </style>
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</body>
 
 </html>
