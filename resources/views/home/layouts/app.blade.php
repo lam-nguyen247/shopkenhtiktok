@@ -318,13 +318,13 @@
             <div class="zalo">
                 <div class="ring">
                     <div class="">
-                        <a href="https://zalo.me/{{ $config->zalo ?? '' }}" class="btn-img" target="_blank">
+                        <a href="#" onclick="copyZalo()" class="btn-img" target="_blank">
                             <img src="/images/home/communication.png" width="38">
                         </a>
                     </div>
                 </div>
                 <div class="bar">
-                    <a href="https://zalo.me/{{ $config->zalo ?? '' }}" target="_blank">
+                    <a href="#" onclick="copyZalo()" target="_blank">
                         <span class="text-hotline">Zalo</span>
                     </a>
                 </div>
@@ -338,7 +338,18 @@
         <script async defer crossorigin="anonymous"
             src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0&appId=2174410252844536&autoLogAppEvents=1"
             nonce="DUFHJS7Q"></script>
-
+        <script>
+            function copyZalo() {
+                /* Get the text field */
+                var copyText = "0965590009";
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val(copyText).select();
+                document.execCommand("copy");
+                $temp.remove();
+                alert('Đã sao chép số zalo')
+            }
+        </script>
         @yield('js')
     </body>
 
