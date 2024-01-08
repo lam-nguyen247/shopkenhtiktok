@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#000000">
     <meta name="description" content="Zalo - Nhắn Gửi Yêu Thương (Nhắn tin thoại - Trò chuyện nhóm ...)">
-    <meta property="og:title" content="Zalo - Lâm Nguyễn">
+    <meta property="og:title" content="Zalo - SOC MEDIA">
     <meta property="og:description" content="Zalo - Nhắn Gửi Yêu Thương (Nhắn tin thoại - Trò chuyện nhóm ...)">
-    <meta property="og:image" content="https://qr.zalo.me/sl/2/fc219422836f6a31337e">
+    <meta property="og:image" content="https://stc-zaloprofile.zdn.vn/profile/assets/zalo-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
-    <title>Zalo - Lâm Nguyễn</title>
+    <title>Zalo - SOC MEDIA</title>
     <script src="https://za.zdn.vn/v3/za.js"></script>
     <script defer="defer" src="https://stc-zaloprofile.zdn.vn/profile/static/js/main.1.0.4.js"></script>
     <link href="https://stc-zaloprofile.zdn.vn/profile/static/css/main.1.0.4.css" rel="stylesheet">
