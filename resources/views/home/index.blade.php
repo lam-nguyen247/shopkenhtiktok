@@ -1,7 +1,8 @@
 @extends('home.layouts.app')
 
 @section('title', 'shopkenhtiktok.com Đơn Vị Mua Bán Chuyển Nhượng kênh tiktok Uy Tín')
-@section('description', 'Bạn đang có nhu cầu mua bán kênh tiktok chất lượng? shopkenhtiktok.com - đơn vị mua bán chuyển
+@section('description',
+    'Bạn đang có nhu cầu mua bán kênh tiktok chất lượng? shopkenhtiktok.com - đơn vị mua bán chuyển
     nhượng kênh tiktok uy tín tại Việt Nam sẽ giúp bạn làm điều đó.')
 @section('css')
 
@@ -152,7 +153,7 @@
         <div>
             <img class='myimg' src='/images/home/communication.png'>
         </div>
-        <a class='popup-btn' href='https://zalo.me/0965590009'> Tôi muốn: Được tư vấn </a>
+        <a class='popup-btn' href='/zalo'> Tôi muốn: Được tư vấn </a>
     </div>
     `,
             showCloseButton: true,
