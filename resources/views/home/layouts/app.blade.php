@@ -189,7 +189,7 @@
                                             </li>
                                             <li><span data-cms="{{ app()->getLocale() }}-layouts-app-733">Zalo:</span><i
                                                     class="fa fa-map-marker" aria-hidden="true"></i> <span
-                                                    data-cms="{{ app()->getLocale() }}-layouts-app-77">0965590009</span>
+                                                    data-cms="{{ app()->getLocale() }}-layouts-app-77">0988508769</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -233,7 +233,7 @@
                                             21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
                                     <li><span data-cms="{{ app()->getLocale() }}-layouts-app-footer-4">Mã số thuế:
                                             0109379379</span> </li>
-                                    <li><a href="tel:+840965590009" title="Số điện thoại">Hotline:
+                                    <li><a href="tel:+840988508769" title="Số điện thoại">Hotline:
                                             {{ $config->phone ?? '' }}</a></li>
                                     <li><span>Email:</span> <a href="mailto:{{ $config->email ?? '' }}"
                                             title="Email">{{ $config->email ?? '' }}</a></li>
@@ -304,13 +304,13 @@
             <div class="zalo">
                 <div class="ring">
                     <div class="">
-                        <a href="#" onclick="copyZalo()" class="btn-img" target="_blank">
+                        <a href="/zalo" class="btn-img" target="_blank">
                             <img src="/images/home/communication.png" width="38">
                         </a>
                     </div>
                 </div>
                 <div class="bar">
-                    <a href="#" onclick="copyZalo()" target="_blank">
+                    <a href="/zalo" target="_blank">
                         <span class="text-hotline">Zalo</span>
                     </a>
                 </div>
@@ -324,18 +324,7 @@
         <script async defer crossorigin="anonymous"
             src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0&appId=2174410252844536&autoLogAppEvents=1"
             nonce="DUFHJS7Q"></script>
-        <script>
-            function copyZalo() {
-                /* Get the text field */
-                var copyText = "0965590009";
-                var $temp = $("<input>");
-                $("body").append($temp);
-                $temp.val(copyText).select();
-                document.execCommand("copy");
-                $temp.remove();
-                alert('Đã sao chép số zalo')
-            }
-        </script>
+
         @yield('js')
     </body>
 
