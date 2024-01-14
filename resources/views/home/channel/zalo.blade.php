@@ -243,7 +243,7 @@
             $temp.val(copyText).select();
             document.execCommand("copy");
             $temp.remove();
-            alert('Đã sao chép số zalo')
+            // alert('Đã sao chép số zalo')
         }
     </script>
 
