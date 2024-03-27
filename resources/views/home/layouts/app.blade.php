@@ -189,7 +189,7 @@
                                             </li>
                                             <li><span data-cms="{{ app()->getLocale() }}-layouts-app-733">Zalo:</span><i
                                                     class="fa fa-map-marker" aria-hidden="true"></i> <span
-                                                    data-cms="{{ app()->getLocale() }}-layouts-app-77">0988508769</span>
+                                                    data-cms="{{ app()->getLocale() }}-layouts-app-77">{{ $config->zalo ?? '' }}</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -233,7 +233,7 @@
                                             21/13 Lĩnh Nam - Hoàng Mai - Hà Nội</span></li>
                                     <li><span data-cms="{{ app()->getLocale() }}-layouts-app-footer-4">Mã số thuế:
                                             0109379379</span> </li>
-                                    <li><a href="tel:+840988508769" title="Số điện thoại">Hotline:
+                                    <li><a href="tel:+84{{ $config->zalo ?? '' }}" title="Số điện thoại">Hotline:
                                             {{ $config->phone ?? '' }}</a></li>
                                     <li><span>Email:</span> <a href="mailto:{{ $config->email ?? '' }}"
                                             title="Email">{{ $config->email ?? '' }}</a></li>
